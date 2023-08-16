@@ -3,8 +3,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ApiController {
-	@GetMapping("disp")
-	public String Welcome()
+	@GetMapping("welc")
+	public String welcome()
 	{
 		return "Welcome String Boot!";
 	}
